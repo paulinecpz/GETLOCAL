@@ -567,6 +567,29 @@ stores_names = ["Fresh Mart", "Natural Foods" ,"Meat & More","El Comida Stores",
 
 # Review.create(content: "Super fresh vegetables. I especially love their carrots. I definitely recommend this store if you are looking for good local products!" , stars: 5, store: store, user: user )
 
+# Reviews
+
+Review.create(content: "Super fresh vegetables. I especially love their carrots. I definitely recommend this store if you are looking for good local products!" , stars: 5, store: store, user: user )
+Review.create(content: "Everything is fresh in this store from the veggies to fruit, i recommend this one" , stars: 5, store: store, user: user )
+Review.create(content: "Os produtos mais frescos que vai encontrar aqui perto, otimo atendimento e a fruta é do melhor.Recomendo a todos" , stars: 5, store: store, user: user )
+Review.create(content: "Not bad, the products could be better, at least the it looks super clean" , stars: 3, store: store, user: user )
+Review.create(content: "The best store in the neighborhood, i only bought some vegetables, but everything looks super fresh" , stars: 4, store: store, user: user )
+Review.create(content: "I hated this store, the owner is super rude, and the fruit doesn't look very fresh. I dont recommend it to anyone" , stars: 1, store: store, user: user )
+Review.create(content: "I'm only giving to stars beacuse of the treatment we had, the owner is badle regarded" , stars: 2, store: store, user: user )
+Review.create(content: "Super cool store, i loved it" , stars: 5, store: store, user: user )
+Review.create(content: "Store with an old air but don't be fooled because the products are the freshest" , stars: 4, store: store, user: user )
+Review.create(content: "Very good regional products especially the jams" , stars: 4, store: store, user: user )
+Review.create(content: "One of the worst stores I can remember, could have more variety of products" , stars: 1, store: store, user: user )
+Review.create(content: "I've been to better stores, but I've been to worse, I leave 3 stars" , stars: 3, store: store, user: user )
+Review.create(content: "Super cool store, i loved it. The freshest vegetables i'v find so far" , stars: 4, store: store, user: user )
+Review.create(content: "I can't tell you how much i love this store, its where i buy all the fruit" , stars: 5, store: store, user: user )
+Review.create(content: "Don't go on this store, i've never seen anything like that" , stars: 1, store: store, user: user )
+Review.create(content: "If you want fruit with dust, this is the right store for you" , stars: 2, store: store, user: user )
+Review.create(content: "I don't recommend this store to anyone" , stars: 2, store: store, user: user )
+Review.create(content: "IFollow my advice and dont visit this grocery store" , stars: 3, store: store, user: user )
+
+
+
 puts("create categories")
 
 Category.create(name: "Vegetables",url: 'https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80')
